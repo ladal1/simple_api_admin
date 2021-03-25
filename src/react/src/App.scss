@@ -1,0 +1,77 @@
+//https://coolors.co/266dd3-a8d0db-fff399-ffaa99-1f1f1f
+$theme-colors: (
+        primary: #266DD3,
+        secondary: #A8D0DB,
+        success: #34a01f,
+        info:  #64c3d2,
+        warning: #E49273,
+        danger: #BC2C1A,
+        object: #FFF399,
+        action: #FFAA99,
+        dark: #1F1F1F
+);
+
+//Code editor sizes
+.modal-tabs > .tab-content{
+  height: 100% !important;
+}
+
+.modal-tabs > .tab-content > .tab-pane{
+  height: calc(100vh - 350px) !important;
+  //overflow: hidden !important;
+}
+
+.no-resize > .CodeMirror{
+  height: calc(100vh - 300px) !important;
+  width: 100%;
+  //overflow: hidden !important;
+}
+//End
+
+.large-dropdown{
+  width: 400px
+}
+
+.connected-icon{
+  font-size: 30px
+}
+
+.remove-field-x{
+  font-size: 23px
+}
+
+.sub-field{
+  width: calc(100% - 16px) !important;
+}
+
+.edited-title {
+  font-size: 1.5rem !important;
+  margin-top: 0.30rem !important;
+  margin-bottom: 0.2rem !important;
+}
+
+.bottom-stick {
+  bottom: 0;
+}
+
+.larger-modal {
+  .modal-dialog{
+    max-width: 750px;
+  }
+}
+
+.top-container {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.InstanceActionModal {
+  .modal-dialog{
+    max-width:700px
+  }
+}
+
+@import '~codemirror/lib/codemirror.css';
+@import '~codemirror/theme/material.css';
+@import "~bootstrap/scss/bootstrap";
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css");

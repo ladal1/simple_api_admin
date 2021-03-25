@@ -1,0 +1,44 @@
+{
+  "name": "frontend_br_simple_api",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "/",
+  "dependencies": {
+    "bootstrap": "^4.6.0",
+    "codemirror": "^5.59.4",
+    "codemirror-graphql": "^1.0.0",
+    "graphql": "^15.5.0",
+    "node-sass": "^5.0.0",
+    "react": "^17.0.1",
+    "react-bootstrap": "^1.5.0",
+    "react-bootstrap-tooltip-button2": "^1.1.23",
+    "react-codemirror2": "^7.2.1",
+    "react-dom": "^17.0.1",
+    "react-scripts": "4.0.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "djangofy": "react-scripts build && python djangofy.py build/index.html"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
