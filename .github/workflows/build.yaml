@@ -24,7 +24,7 @@ jobs:
         uses: TheDoctor0/zip-release@0.4.1
         with:
           filename: 'release.zip'
-          directory: build
+          path: build
 
       - name: Release on Github
         uses: softprops/action-gh-release@v0.1.5
@@ -33,4 +33,4 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           files: |
-              build/release.zip
+              release.zip
