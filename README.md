@@ -6,7 +6,7 @@ Quick but powerful web admin interface for testing [simple_API](https://github.c
 Installing
 ----------
 
-  pip install -e setup.py
+  pip install -e ./build
 
   pip install simple_api_frontend
   
