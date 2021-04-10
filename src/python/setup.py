@@ -15,7 +15,7 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
     install_requires=[
-        "django==3.0.7"
+        "django==3.0.14"
     ],
     python_requires='>=3.6',
 )
