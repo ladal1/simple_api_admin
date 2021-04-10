@@ -1,5 +1,5 @@
 function Send_to_API(query, callback=()=>{}, error_callback=()=>{}){
-    console.log(query)
+    // console.log(query)
     fetch('../api/', {
     // fetch('http://localhost:8000/api/', {
         method: 'POST',
