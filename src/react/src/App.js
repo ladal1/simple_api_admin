@@ -193,6 +193,7 @@ class ViewSelector extends React.Component{
 
         this.setState({logins: newArr})
         setCookie("savedLogins", JSON.stringify(newArr))
+        this.reloadSchema()
     }
 
     logoutAll = () => {
