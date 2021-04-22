@@ -23,7 +23,7 @@ jobs:
       - name: Zip the release
         uses: TheDoctor0/zip-release@0.4.1
         with:
-          filename: 'release.zip'
+          filename: 'simple_api_frontend.zip'
           path: build
 
       - name: Release on Github

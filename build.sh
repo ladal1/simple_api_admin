@@ -18,5 +18,7 @@ cp -avr src/python/. build
 cp -avr src/react/build/static build/simple_api_admin/static
 # Copy template file
 cp -av src/react/build/index.html build/simple_api_admin/templates/index.html
+# Copy readme
+cp -av README.md build/README.md
 # Remove unnecessary .gitkeep
 rm build/simple_api_admin/templates/.gitkeep

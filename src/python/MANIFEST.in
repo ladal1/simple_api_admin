@@ -1,0 +1,2 @@
+recursive-include simple_api_admin/templates *
+recursive-include simple_api_admin/static *
