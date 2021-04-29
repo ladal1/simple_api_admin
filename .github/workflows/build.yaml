@@ -33,4 +33,4 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           files: |
-              release.zip
+              simple_api_frontend.zip
