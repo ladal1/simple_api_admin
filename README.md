@@ -5,11 +5,11 @@ Quick but powerful web admin interface for testing [simple_API](https://github.c
 
 Installing
 ----------
-
+```shell
   pip install -e ./build
-
-  pip install simple_api_frontend
-  
+  OR
+  pip install -i https://test.pypi.org/simple/ simple-api-frontend
+```
 How to use
 ----------
 In your django settings.py include simple_api_frontend in you installed apps:
