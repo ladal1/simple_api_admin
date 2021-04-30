@@ -7,7 +7,7 @@ with open(path.join(this_directory, 'README.md'), encoding='utf-8') as f:
 
 setuptools.setup(
     name='simple_api_admin',
-    version='0.62',
+    version='0.63',
     packages=setuptools.find_packages(),
 	include_package_data=True,
     url='https://github.com/ladal1/simple_api_admin',

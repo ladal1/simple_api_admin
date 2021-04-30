@@ -242,7 +242,7 @@ class InstanceActionModal extends React.Component {
         return(
             <>
                 <Modal.Header closeButton>
-                    <Modal.Title>{this.state.action.name}</Modal.Title>
+                    <Modal.Title>{this.props.modalDetails.Action.name}</Modal.Title>
                 </Modal.Header>
 
                 <Modal.Body>
