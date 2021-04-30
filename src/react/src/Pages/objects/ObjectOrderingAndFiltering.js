@@ -94,7 +94,7 @@ class OrderApplet extends React.Component {
         return (
             <Modal show={this.state.openOrderModal} onHide={this.orderModalClose} className="larger-modal">
                 <Modal.Header closeButton>
-                    <Modal.Title>Modal heading</Modal.Title>
+                    <Modal.Title>Order</Modal.Title>
                 </Modal.Header>
                 <Modal.Body className="d-flex justify-content-between">
                     <div className="w-50 mr-4">
@@ -235,7 +235,7 @@ class OrderApplet extends React.Component {
         return (
             <Modal show={this.state.openFilterModal} onHide={this.filterModalClose}>
                 <Modal.Header closeButton>
-                    <Modal.Title>Modal heading</Modal.Title>
+                    <Modal.Title>Filters</Modal.Title>
                 </Modal.Header>
                 <Modal.Body className="d-flex justify-content-between">
                     <div className="w-100 mr-4">
