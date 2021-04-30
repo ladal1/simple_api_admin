@@ -8,7 +8,7 @@ Installing
 ```shell
   pip install -e ./build
   OR
-  pip install -i https://test.pypi.org/simple/ simple_api_admin
+  pip install -i https://test.pypi.org/simple/ simple-api-admin
 ```
 How to use
 ----------
