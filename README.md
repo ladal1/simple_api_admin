@@ -32,7 +32,7 @@ In your django settings.py include simple_api_frontend in you installed apps:
 ```
 
 
-And then add simple_api_frontend into your urls.py (patterns is simple_api.adapters.graphql.utils.build_patterns to create Simple API):
+And then add simple_api_admin into your urls.py (patterns is simple_api.adapters.graphql.utils.build_patterns to create Simple API):
 
 ```python
 from django.urls import path
