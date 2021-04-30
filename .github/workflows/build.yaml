@@ -23,7 +23,7 @@ jobs:
       - name: Zip the release
         uses: TheDoctor0/zip-release@0.4.1
         with:
-          filename: 'simple_api_frontend.zip'
+          filename: 'simple_api_admin.zip'
           path: build
 
       - name: Release on Github
@@ -33,4 +33,4 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           files: |
-              simple_api_frontend.zip
+              simple_api_admin.zip
